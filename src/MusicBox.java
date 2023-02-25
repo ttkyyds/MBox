@@ -17,8 +17,15 @@ public class MusicBox {
         this.songID = songID;
         this.isSongPremium = premiumSong;
         this.songArtists = artists;
-        
-        // -- TODO
+       this.songTitle = title;
+       this.songAlbum = Album;
+       this.songGenre = "Unkown" ;
+       this.songProducer = "Unkown" ;
+       this.songMusicLabel = "Unkown" ;
+       this.noAds = 0;
+
+
+        // -- 
         /* Initialise  the rest of the variables in this Constructor block*/
     }
     
@@ -37,8 +44,34 @@ public class MusicBox {
     }
 
 
-    // -- TODO
+    // -- 
         /* Create the rest of "getters" for the remaining variables */
+        public String getSongTitle() {
+        return songTitle;
+    }
     
+    public String getSongAlbum() {
+        return songAlbum;
+    }
+    
+    public String getSongGenre() {
+        return songGenre;
+    }
+    
+    public String getSongProducer() {
+        return songProducer;
+    }
+    
+    public String getSongMusicalLabel() {
+        return songMusicLabel;
+    }
+    
+    public int getNoAds() {
+        return noAds;
+    }
+
+
+
+
 }
 

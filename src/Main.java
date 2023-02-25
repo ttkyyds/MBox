@@ -5,11 +5,11 @@ public class Main{
         "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
 
         PlaySongs playsong = new PlaySongs();
-        System.out.println("Now playing the song");
+        
         playsong.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
 
         
-        // --- TODO
+        // --- 
 
         /* Repeat the above code to create another object  
          * Pass different parameters to the MusicBox constructor, but initialise premiumSong to N and when calling the
@@ -17,10 +17,15 @@ public class Main{
          * 
          * 
         */
-        
+        MusicBox mbox2 = new MusicBox("A12BC34", 'N', "Summer Breeze", "John Doe", 
+                                      "Beach Vibes", "Pop", "ABC Records", "Sunset Music");
 
+      
+        playsong.playSong(mbox2.getSongID(), mbox2.getPremiumSong(), 1);
     }
-}
+
+ }
+
 
 
 
